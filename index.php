@@ -2,4 +2,4 @@
 
 echo "Ahoj, Světe!";
 
-<?
+?>
