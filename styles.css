@@ -1,0 +1,69 @@
+/* Globální nastavení */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Upravený main */
+main {
+    padding: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #1e1e1e;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    color: #bbbbbb;
+}
+
+/* Odkazy v offcanvas menu */
+.offcanvas a.nav-link {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.offcanvas a.nav-link:hover {
+    color: #ffcc00; /* zlatý highlight */
+}
+
+/* Hamburger button styling (volitelně) */
+.navbar .btn {
+    border-radius: 6px;
+    font-size: 1.3rem;
+}
+
+/* Hero nadpis */
+h1.display-4 {
+    color: #ffcc00;
+    letter-spacing: 1px;
+}
+
+/* Karty na homepage */
+.bg-dark {
+    background-color: #1a1a1a !important;
+}
+
+.bg-dark:hover {
+    background-color: #242424 !important;
+    transform: translateY(-4px);
+    transition: 0.2s ease-in-out;
+}
+
+.btn-warning {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
