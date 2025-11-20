@@ -3,3 +3,4 @@
  ale neví jaké. Moje stránka mu nabídne kytary a on si pak může filtrovat kytary podle toho, jaký styl
  by mu vyhovoval. Následně si vybere kombo, které splňuje jeho požadavky (Domaci hraní, Koncertování, Zkušebna)
 
+2. Chci aby tam byl dotazník o kytarách a taky dotazník mířený na uživatele
