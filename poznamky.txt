@@ -1,0 +1,5 @@
+1. Funkcionalita 
+ - Chci aby projekt sloužil k tomu, že člověk otevře stránku a chce si vybrat ideální kytaru a kombo
+ ale neví jaké. Moje stránka mu nabídne kytary a on si pak může filtrovat kytary podle toho, jaký styl
+ by mu vyhovoval. Následně si vybere kombo, které splňuje jeho požadavky (Domaci hraní, Koncertování, Zkušebna)
+
