@@ -1,20 +1,21 @@
-/* Globální nastavení */
+/* Nastavení pro Dark Mode */
 body {
     background-color: #121212;
     color: #ffffff;
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Upravený main */
+/* hlavní kontejner */
 main {
     padding: 20px;
+    min-height: 80vh; /* Zajištění minimální výšky, aby se footer nelepil na horní okraj, když je málo obsahu */
 }
 
 /* Footer styling */
 footer {
-    background-color: #1e1e1e;
+    background-color: #1e1e1e !important;
     text-align: center;
     padding: 15px 0;
     margin-top: 40px;
@@ -26,10 +27,11 @@ footer {
     color: #ffffff;
     font-size: 1.2rem;
     margin-bottom: 8px;
+    transition: color 0.2s; /* Přechod */
 }
 
 .offcanvas a.nav-link:hover {
-    color: #ffcc00; /* zlatý highlight */
+    color: #ffcc00;
 }
 
 /* Hamburger button styling (volitelně) */
@@ -38,32 +40,24 @@ footer {
     font-size: 1.3rem;
 }
 
-/* Hero nadpis */
+/* Hero nadpis (hlavní titulek) */
 h1.display-4 {
-    color: #ffcc00;
+    color: #ffcc00 !important;
     letter-spacing: 1px;
 }
 
-/* Karty na homepage */
+/* Tmavé pozadí pro karty a Navbar */
 .bg-dark {
     background-color: #1a1a1a !important;
 }
 
-.bg-dark:hover {
+/* Hover efekt pro karty na homepage */
+.p-4.bg-dark.shadow:hover {
     background-color: #242424 !important;
-    transform: translateY(-4px);
+    transform: translateY(-4px); /* Efekt vysunutí */
     transition: 0.2s ease-in-out;
 }
 
 .btn-warning {
     font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
